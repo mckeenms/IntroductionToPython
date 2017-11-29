@@ -2,15 +2,15 @@
 Your chance to explore Loops and Turtles!
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+         their colleagues and Mason McKeen.
 """
 ########################################################################
-# TODO: 1.
+# DONE: 1.
 # On Line 5 above, replace  PUT_YOUR_NAME_HERE  with your own name.
 ########################################################################
 
 ########################################################################
-# TODO: 2.
+# DONE: 2.
 #
 #  You should have RUN the PREVIOUS module and READ its code.
 #  (Do so now if you have not already done so.)
@@ -28,3 +28,30 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #
 #  Don't forget to COMMIT your work by using  VCS ~ Commit and Push.
 ########################################################################
+import rosegraphics as rg
+window = rg.TurtleWindow()
+window.delay(20)
+
+notsatan = rg.SimpleTurtle()
+notsatan.forward(100)
+notsatan.left(36)
+notsatan.backward(100)
+notsatan.left(36)
+notsatan.forward(100)
+notsatan.left(36)
+notsatan.backward(100)
+notsatan.left(36)
+notsatan.forward(100)
+
+keepitPG = rg.SimpleTurtle()
+keepitPG.pen_up()
+keepitPG.forward(50)
+keepitPG.left(90)
+keepitPG.forward(34)
+keepitPG.left(90)
+keepitPG.pen_down()
+keepitPG.draw_circle(50)
+
+#DISCLAIMER: not a satanist, just thought these shapes would be kinda easy
+
+window.close_on_mouse_click()
