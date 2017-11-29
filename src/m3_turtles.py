@@ -73,11 +73,12 @@ matt.speed = 10  # Faster
 matt.backward(50)
 matt.left(90)
 matt.forward(50)
-
+matt.right(45)
+matt.forward(300)
 
 ########################################################################
 #
-# TODO: 3.
+# DONE: 3.
 #   Add a few more line of your own code above to make one of the
 #   existing Turtles move some more and/or have different
 #   characteristics.
@@ -91,7 +92,7 @@ matt.forward(50)
 
 ########################################################################
 #
-# TODO: 4.
+# DONE: 4.
 #   The code above  CONSTRUCTS  two SimpleTurtle objects and gives those objects NAMES:
 #       dave    matt
 #
@@ -109,10 +110,15 @@ matt.forward(50)
 #   As always, test by running the module.
 #
 ########################################################################
-
+slowboi = rg.SimpleTurtle()
+slowboi.forward(20)
+slowboi.right(45)
+slowboi.backward(100)
+slowboi.left(10)
+slowboi.forward(50)
 ########################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   Run one more time to be sure that all is still OK.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #
